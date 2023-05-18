@@ -1,0 +1,40 @@
+header{
+   text-align: center;
+
+}
+
+.content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content{
+
+    
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 0 5px;
+    
+
+}
+
+.content img{
+
+    height: 200px;
+    margin-top: 10px;
+    width: 100%;
+    vertical-align: middle;
+
+
+}
+.container{
+    padding: 0 200px;
+    height: 100vh;
+}
+
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
